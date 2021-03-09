@@ -1,0 +1,46 @@
+#searchError {
+    font-weight: 900;
+    color: #9d0a0e;
+}
+.monsterDisplay {
+    display: flex;
+    flex-flow: row wrap;
+}
+.holder {
+    padding: 1em;
+    border-radius: 0.25em;
+    box-shadow: 1px 1px 3px #000;
+    display: flex;
+    flex-flow: column;
+    color: #9d0a0e;
+    background: #e7e7db;
+    background-image: url(https://background-tiles.com/overview/yellow/textures/large/5019.png);
+    max-width: 420px;
+    margin: 1em;
+}
+.monsterName {
+    border-bottom: 4px solid #9d0a0e;
+    margin-bottom: 1em;
+}
+.statTitle {
+    font-weight: 900;
+    margin-right: 1em;
+}
+
+.attributeBlock {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    border-top: 4px solid #9d0a0e;
+    border-bottom: 4px solid #9d0a0e;
+    margin-top: 1em;
+}
+.attributeBlock > div {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 1em;
+}
+.attrTitle {
+    margin: 0;
+}
